@@ -4,7 +4,7 @@ Created brand new Orcs, filthy green scum. You can find Classes and Factory in "
 
 Basic orc is huge pile of muscles. When tired can even hurt themselves! (orc0001.png)
 
-Orc Warlord can regenerate Stamina during attack! (orc0002.png)
+Orc Warlord can regenerate Stamina during attack! (orcwarboss0001.png)
 ### New Weapons! Two Handed Axe, Magic Sword and Beautiful Red Staff!
 You can find classes and factory in "Engine/Items" folder.
 
