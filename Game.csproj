@@ -140,7 +140,10 @@
     <Compile Include="Engine\Monsters\Monster.cs" />
     <Compile Include="Engine\CharacterClasses\Player.cs" />
     <Compile Include="Engine\Monsters\MonsterFactories\MonsterFactory.cs" />
+    <Compile Include="Engine\Monsters\MonsterFactories\OrcFactory.cs" />
     <Compile Include="Engine\Monsters\MonsterFactories\RatFactory.cs" />
+    <Compile Include="Engine\Monsters\Orc.cs" />
+    <Compile Include="Engine\Monsters\OrcWarboss.cs" />
     <Compile Include="Engine\Monsters\Rat.cs" />
     <Compile Include="Engine\Monsters\RatEvolved.cs" />
     <Compile Include="Engine\SaveData.cs" />
@@ -243,6 +246,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Display\Assets\interaction0001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Display\Assets\orc0001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Display\Assets\orcwarboss0001.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
