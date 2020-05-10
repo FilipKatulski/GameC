@@ -17,7 +17,7 @@ namespace Game.Engine.Monsters
             MagicPower = 0;
             Stamina = 100;
             XPValue = 70 + orcLevel;
-            Name = "orc0001";
+            Name = "orc" + (orcLevel+1).ToString().PadLeft(4,'0');
             BattleGreetings = "Whaaaaaaaagh!"; 
         }
 

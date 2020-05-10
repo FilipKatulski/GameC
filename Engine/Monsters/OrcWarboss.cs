@@ -16,8 +16,8 @@ namespace Game.Engine.Monsters
             Precision = 15;
             MagicPower = 0;
             Stamina = 150;
-            XPValue = 70 + orcLevel;
-            Name = "orc0002";
+            XPValue = 100 + orcLevel;
+            Name = "orcwarboss" + (orcLevel + 1).ToString().PadLeft(4, '0');
             BattleGreetings = "For Gork! For Mork!";
         }
 
@@ -26,7 +26,7 @@ namespace Game.Engine.Monsters
             if (Stamina > 0)
             {
                 Stamina -= 20;
-                return new List<StatPackage>() { new StatPackage("stab", 25 + Strength, "Orc uses stone knife! (" + (25 + Strength) + " stab damage)") };
+                return new List<StatPackage>() { new StatPackage("cut", 25 + Strength, "Orc uses stone knife! (" + (25 + Strength) + " cut damage)") };
             }
             else
             {
