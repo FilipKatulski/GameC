@@ -7,6 +7,7 @@ using System.Windows.Controls;
 
 namespace Game.Engine.Monsters.MonsterFactories
 {
+    [Serializable]
     class OrcFactory : MonsterFactory
     {
         // this factory produces  orcs or orc warbosses
