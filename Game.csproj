@@ -132,9 +132,13 @@
     <Compile Include="Engine\Items\BasicAxe.cs" />
     <Compile Include="Engine\Items\ItemFactories\BasicArmorFactory.cs" />
     <Compile Include="Engine\Items\ItemFactories\ItemFactory.cs" />
+    <Compile Include="Engine\Items\ItemFactories\myWeaponFactory.cs" />
+    <Compile Include="Engine\Items\MagicSword.cs" />
+    <Compile Include="Engine\Items\RedStaff.cs" />
     <Compile Include="Engine\Items\Spear.cs" />
     <Compile Include="Engine\Items\Staff.cs" />
     <Compile Include="Engine\Items\Sword.cs" />
+    <Compile Include="Engine\Items\TwoHandedAxe.cs" />
     <Compile Include="Engine\MapMatrix.cs" />
     <Compile Include="Engine\MetaMapMatrix.cs" />
     <Compile Include="Engine\Monsters\Monster.cs" />
@@ -248,10 +252,19 @@
     <Resource Include="Display\Assets\interaction0001.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Display\Assets\orc0001.png" />
+    <Resource Include="Display\Assets\orcwarboss0001.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Display\Assets\orcwarboss0001.png" />
+    <Resource Include="Display\Assets\axe0001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Display\Assets\sword0001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Display\Assets\staff0001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Display\Assets\orc0001.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
