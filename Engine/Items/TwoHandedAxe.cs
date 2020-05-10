@@ -7,6 +7,7 @@ using Game.Engine.CharacterClasses;
 
 namespace Game.Engine.Items
 {
+    [Serializable]
     class TwoHandedAxe : Axe
     {
         public TwoHandedAxe() : base("axe0001")

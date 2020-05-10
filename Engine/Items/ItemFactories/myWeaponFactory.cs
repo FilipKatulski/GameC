@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Game.Engine.Items.ItemFactories
 {
+    [Serializable]
     class myWeaponFactory : ItemFactory
     {
         public Item CreateItem()

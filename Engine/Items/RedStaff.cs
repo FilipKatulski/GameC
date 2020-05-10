@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Game.Engine.Items
 {
+    [Serializable]
     class RedStaff : Staff
     {
         public RedStaff() : base("staff0001")

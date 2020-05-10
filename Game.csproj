@@ -158,6 +158,8 @@
     <Compile Include="Engine\Skills\BasicWeaponMoves\AxeCut.cs" />
     <Compile Include="Engine\Skills\BasicWeaponMoves\SpearStab.cs" />
     <Compile Include="Engine\Skills\BasicWeaponMoves\SwordSlash.cs" />
+    <Compile Include="Engine\Skills\PowerAttackAxe.cs" />
+    <Compile Include="Engine\Skills\PowerAttackAxeDecorator.cs" />
     <Compile Include="Engine\Skills\Skill.cs" />
     <Compile Include="Engine\Skills\SkillDecorator.cs" />
     <Compile Include="Engine\Skills\SkillFactories\BasicSpellFactory.cs" />
