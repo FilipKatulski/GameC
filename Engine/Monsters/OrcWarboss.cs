@@ -30,7 +30,7 @@ namespace Game.Engine.Monsters
             }
             else
             {
-                Stamina += 20; //regeneration
+                Stamina += 21; //regeneration
                 return new List<StatPackage>() { new StatPackage("blunt", 10, "Tired Orc pushes you away to gain ground!") };
             }
         }

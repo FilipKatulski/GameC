@@ -30,7 +30,7 @@ namespace Game.Engine.Monsters
             }
             else
             {
-                Precision -= 2;
+                Health -= 2; //self harm
                 return new List<StatPackage>() { new StatPackage("none", 0, "Orc swings his arms, barely breathing!") };
             }
         }
